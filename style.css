@@ -1,6 +1,31 @@
-.gridRow {
-    border: 1px solid black;
-}
+
 .cell {
-    border: 1px solid black;
+    border: 0.1px solid  black;
+    min-width: 74.7px;
+    min-height: 20px;
+    display: inline-block;
+
+  }
+.gridRow{
+    margin: auto;
+    width: 100%;
 }
+#container {
+    margin-top: 1em;
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    box-shadow: 4px 6px 16px 3px rgba(0, 0, 0, 0.55);
+}
+h1{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    color: burlywood;
+}
+#rainbow{
+    margin-bottom: 2px;
+}
+
+
+.hove:hover{background-color: #c00}
