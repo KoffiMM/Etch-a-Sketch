@@ -1,19 +1,46 @@
+html {
 
+    background: url('./technical-drawings.jpg') bottom center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 .cell {
-    border: 0.1px solid  black;
-    min-width: 74.7px;
-    min-height: 20px;
-    display: inline-block;
+    border: 0.1px;
+    
 
   }
-.gridRow{
+  body{
+    display: block;
+    margin: 8px;
+  }
+ .gridRow{
+    height:30px;
+} 
+#headerContainer{
+    width: 55vw;
     margin: auto;
-    width: 100%;
+    box-shadow: 4px 6px 16px 3px rgba(0, 0, 0, 0.55);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+button{
+    position: absolute;
+    right: 460px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 10px;
+    
 }
 #container {
     margin-top: 1em;
     margin: auto;
-    width: 50%;
+    display: grid;
+    height: 65vh;
+    width: 55vw;
     background-color: white;
     box-shadow: 4px 6px 16px 3px rgba(0, 0, 0, 0.55);
 }
@@ -21,11 +48,8 @@ h1{
     text-align: center;
     margin: auto;
     width: 40%;
-    color: burlywood;
+    color:maroon;
 }
 #rainbow{
     margin-bottom: 2px;
 }
-
-
-.hove:hover{background-color: #c00}
